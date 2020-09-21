@@ -1,1 +1,165 @@
-{"accessors" : [{"bufferView" : 0, "byteOffset" : 0, "componentType" : 5123, "count" : 27264, "type" : "SCALAR", "max" : [27263], "min" : [0]}, {"bufferView" : 1, "byteOffset" : 0, "componentType" : 5126, "count" : 27264, "type" : "VEC3", "max" : [872424.875, 872428.875, 872432.875], "min" : [8.858449935913086, 12.858449935913086, 16.858449935913086]}, {"bufferView" : 1, "byteOffset" : 12, "componentType" : 5126, "count" : 27264, "type" : "VEC2", "max" : [872436.875, 872440.875], "min" : [20.858449935913086, 24.858449935913086]}, {"bufferView" : 1, "byteOffset" : 20, "componentType" : 5126, "count" : 27264, "type" : "VEC3", "max" : [872444.875, 872448.875, 872452.875], "min" : [28.858449935913086, 32.85845184326172, 36.85845184326172]}], "asset" : {"generator" : "Aspose.3D 20.8", "version" : "2.0"}, "buffers" : [{"uri" : "buffer.bin", "byteLength" : 926984}], "bufferViews" : [{"buffer" : 0, "byteOffset" : 0, "byteLength" : 54528, "target" : 34963}, {"buffer" : 0, "byteOffset" : 54532, "byteLength" : 872448, "byteStride" : 32, "target" : 34962}], "meshes" : [{"primitives" : [{"attributes" : {"POSITION" : 1, "TEXCOORD_0" : 2, "NORMAL" : 3}, "indices" : 0, "mode" : 4}]}], "nodes" : [{"mesh" : 0, "name" : ""}], "scene" : 0, "scenes" : [{"nodes" : [0]}]}
+{
+    "asset": {
+        "version": "2.0",
+        "generator": "Open Asset Import Library (assimp v5.0.5eb040c7)"
+    },
+    "accessors": [
+        {
+            "bufferView": 0,
+            "byteOffset": 0,
+            "componentType": 5126,
+            "count": 5171,
+            "type": "VEC3",
+            "max": [
+                73.5,
+                459.4671936035156,
+                73.5
+            ],
+            "min": [
+                -73.5,
+                0.0,
+                -73.5
+            ]
+        },
+        {
+            "bufferView": 1,
+            "byteOffset": 0,
+            "componentType": 5126,
+            "count": 5171,
+            "type": "VEC3",
+            "max": [
+                1.0,
+                1.0,
+                1.0
+            ],
+            "min": [
+                -1.0,
+                -1.0,
+                -1.0
+            ]
+        },
+        {
+            "bufferView": 2,
+            "byteOffset": 0,
+            "componentType": 5126,
+            "count": 5171,
+            "type": "VEC2",
+            "max": [
+                0.8901000022888184,
+                0.9976999759674072
+            ],
+            "min": [
+                0.009100000374019146,
+                0.002200007438659668
+            ]
+        },
+        {
+            "bufferView": 3,
+            "byteOffset": 0,
+            "componentType": 5125,
+            "count": 27264,
+            "type": "SCALAR",
+            "max": [
+                5170
+            ],
+            "min": [
+                0
+            ]
+        }
+    ],
+    "buffers": [
+        {
+            "byteLength": 274528,
+            "uri": "result.bin"
+        }
+    ],
+    "bufferViews": [
+        {
+            "buffer": 0,
+            "byteOffset": 0,
+            "byteLength": 62052,
+            "target": 34962
+        },
+        {
+            "buffer": 0,
+            "byteOffset": 62052,
+            "byteLength": 62052,
+            "target": 34962
+        },
+        {
+            "buffer": 0,
+            "byteOffset": 124104,
+            "byteLength": 41368,
+            "target": 34962
+        },
+        {
+            "buffer": 0,
+            "byteOffset": 165472,
+            "byteLength": 109056,
+            "target": 34963
+        }
+    ],
+    "materials": [
+        {
+            "name": "DefaultMaterial",
+            "pbrMetallicRoughness": {
+                "baseColorFactor": [
+                    0.6000000238418579,
+                    0.6000000238418579,
+                    0.6000000238418579,
+                    1.0
+                ],
+                "metallicFactor": 0.0
+            }
+        },
+        {
+            "name": "Base_Col",
+            "pbrMetallicRoughness": {
+                "baseColorFactor": [
+                    0.6000000238418579,
+                    0.6000000238418579,
+                    0.6000000238418579,
+                    1.0
+                ],
+                "metallicFactor": 0.0
+            }
+        }
+    ],
+    "meshes": [
+        {
+            "name": "Sansewieria",
+            "primitives": [
+                {
+                    "mode": 4,
+                    "material": 1,
+                    "indices": 3,
+                    "attributes": {
+                        "POSITION": 0,
+                        "NORMAL": 1,
+                        "TEXCOORD_0": 2
+                    }
+                }
+            ]
+        }
+    ],
+    "nodes": [
+        {
+            "name": "input.obj",
+            "children": [
+                1
+            ]
+        },
+        {
+            "name": "Sansewieria",
+            "mesh": 0
+        }
+    ],
+    "scenes": [
+        {
+            "nodes": [
+                0
+            ]
+        }
+    ],
+    "scene": 0
+}
