@@ -52,26 +52,6 @@
             ]
         }
     ],
-    "bufferViews": [
-        {
-            "buffer": 0,
-            "byteOffset": 0,
-            "byteLength": 58308,
-            "target": 34962
-        },
-        {
-            "buffer": 0,
-            "byteOffset": 58308,
-            "byteLength": 58308,
-            "target": 34962
-        },
-        {
-            "buffer": 0,
-            "byteOffset": 116616,
-            "byteLength": 109056,
-            "target": 34963
-        }
-    ],
     "images": [
         {
             "uri": "Sansewieria_BC_AO.jpg"
