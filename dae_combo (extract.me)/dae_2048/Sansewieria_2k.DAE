@@ -11,7 +11,7 @@
  </asset>
  <library_images>
   <image id="MapFBXASC032FBXASC0358-image" name="MapFBXASC032FBXASC0358">
-   <init_from></init_from>
+   <init_from>file://diff_ao_map2048.jpg</init_from>
   </image>
  </library_images>
  <library_materials>
